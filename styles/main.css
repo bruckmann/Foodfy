@@ -1,0 +1,110 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    
+}
+
+.margin {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    margin-top: 36px;
+    align-items: center;
+}
+
+header .header-logo{
+    margin-right: 122px;
+}
+
+header .nav a{
+    font-size: 16px;
+    text-decoration: none;
+    color: #111111;
+    margin-right: 30px;
+}
+
+.jumbtrom {
+    display: flex;
+    margin: 30px 0px 50px;
+    max-width: 100%;
+    height: 366px;
+    background-color: #FBDFDB;
+    border-radius: 30px 30px;
+}
+
+.jumbtrom .text h1 {
+    margin: 117px 0 10px 60px;
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.jumbtrom .text p {
+    font-size: 18px;
+    line-height: 28px;
+    color: #000000;
+    opacity: 0.8;
+    width: 316px;
+    margin: 0  0 117px 60px;
+}
+
+
+
+.jumb-img img {
+    margin-top: 66px;
+    margin-left: 248px;
+}
+
+.content h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.content .cards {
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px;
+}
+
+
+.content .cards .card .card-img img{
+    margin: 0px 0 20px 0;
+    width: 300px;
+    height: 140px;
+    border-radius: 15px 15px;
+}
+
+.content .cards .card .name-recipe p {
+    margin-top: 0;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+.content .cards .card .name p {
+    font-size: 10px;
+    color: #777777;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+
+.direitos{
+    background-color: #EEEEEE;
+    text-align: center;
+    height: 62px;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.direitos p {
+    font-size: 14px;
+    color: #999999;
+    flex: 1;
+}
+
