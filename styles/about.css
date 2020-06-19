@@ -1,0 +1,35 @@
+
+:root {
+    
+    --font-title-color: #111111;
+    --font-p-color: #444444;
+
+}
+
+.margin .about h1 {
+    font-size: 24px;
+    color:  var (var(--font-title-color));
+    line-height: 28px;
+    margin-top: 50px;
+}
+
+.margin .about p {
+    font-size: 18px;
+    color: var (--font-p-color);
+    line-height: 28px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.margin .paragraph h1 {
+    font-size: 20px;
+    color: var (var(--font-title-color))
+}
+
+.margin .paragraph p {
+    font-size: 18px;
+    color: var (--font-p-color);
+    line-height: 28px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
