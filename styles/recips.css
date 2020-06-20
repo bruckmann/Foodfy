@@ -1,3 +1,8 @@
+.card:hover {
+    transform: translateY(-7px);
+    transition: 400ms;
+}
+
 .content h1 {
     margin-top: 50px;
 }
@@ -15,6 +20,8 @@
     background-color: rgba(0 , 0, 0, 0.8);
     text-align: center;
     display: flex;
+    opacity: 0;
+    visibility: hidden;
 }
 
 .modal .content {
@@ -55,4 +62,9 @@
     color: #999999;
     text-decoration: none;
     margin-bottom: 30px;
+}
+
+.modal.active {
+    visibility: visible;
+    opacity: 1;
 }
