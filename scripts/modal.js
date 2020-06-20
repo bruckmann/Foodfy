@@ -8,51 +8,52 @@ let titulo = document.getElementById('titulo');
 let autor = document.getElementById('autor');
 
 
+const conteudo = {
+    'burger': {
+    titulo: 'Triplo bacon burguer',
+    autor: 'Por Jorge Relato'
+    },
+    'pizza': {
+    titulo: 'Pizza 4 estações',
+    autor: 'Por Fabiana Melo'
+    },
+    'espaguete': {
+        titulo: 'Espaguete ao alho',
+        autor: 'Por Julia Kinoto'
+    },
+    'lasanha': {
+        titulo: `Lasanha mac'chesse`,
+        autor: 'Por Juliano Vieira'
+    }, 
+    'doce': {
+        titulo: 'Docinho pão do céu',
+        autor: 'Por Ricardo Golves'
+    },
+    'asinhas': {
+        titulo: 'Asinhas de frango ao barbecue',
+        autor: 'Por Vania Steroski'
+    }
 
+}
 
 for (let card of cards) {
 
-    card.addEventListener("click" , () => {
+    card.addEventListener("click", () => {
     const imgID = card.getAttribute('id')
 
     modal.classList.add('active')
     modal.querySelector('img').src = `assets/${imgID}`
 
-    if (imgID === "burger.png") {
-        titulo.innerHTML = `Triplo bacon burguer`
-        autor.innerHTML = `por Jorge Relato`
-    }
+    const imagemSemExtenssao = imgID.split('.')[0]
 
-    if (imgID === "espaguete.png") {
-        titulo.innerHTML = `Espaguete ao alho`
-        autor.innerHTML = `por Julia Kinoto`
-    }
-
-    if (imgID === "pizza.png") {
-        titulo.innerHTML = `Pizza 4 estações`
-        autor.innerHTML = `por Fabiana Melo`
-    }
-
-    if (imgID === "lasanha.png") {
-        titulo.innerHTML = `Lasanha mac'cheese`
-        autor.innerHTML = `por Juliano Vieira`
-    }
-
-    if (imgID === "doce.png") {
-        titulo.innerHTML = `Docinho pão do céu`
-        autor.innerHTML = `por Ricardo Golves`
-    }
-
-    if (imgID === "asinhas.png") {
-        titulo.innerHTML = `Asinhas de frango ao barbecue`
-        autor.innerHTML = `por Vania Steroski`
-    }
-    
+    titulo.innerHTML = conteudo[imagemSemExtenssao].titulo;
+    autor.innerHTML = conteudo[imagemSemExtenssao].autor;
 
     })
 
-    fechar.addEventListener("click" , () => {
-        modal.classList.remove('active')
+    fechar.addEventListener("click", () => {
+    modal.classList.remove('active')
     })
 
 }
+
