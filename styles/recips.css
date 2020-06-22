@@ -1,6 +1,6 @@
+
 .card:hover {
     transform: translateY(-7px);
-    transition: 400ms;
 }
 
 .content h1 {
