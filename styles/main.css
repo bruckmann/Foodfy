@@ -69,7 +69,6 @@ header .nav a{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 15px;
-    transition: 400ms;
 }
 
 
