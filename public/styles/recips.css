@@ -1,0 +1,20 @@
+.cards {
+    margin-top: 60px;
+}
+
+.card {
+    transition: 400ms;
+}
+
+.card:hover {
+    transform: translateY(-7px);
+}
+
+.content h1 {
+    margin-top: 50px;
+}
+
+.content .cards {
+    margin-bottom: 50px;
+}
+

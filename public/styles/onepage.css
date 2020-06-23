@@ -1,0 +1,127 @@
+
+
+.header-img img {
+    width: 100%;
+    max-height: 300px;
+    border-radius: 15px;
+    margin-top: 56px;
+}
+
+.title {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.title h1 {
+    font-size: 36px;
+    color: #111111;
+    margin-bottom: 0;
+}
+
+.title p {
+    margin-top: 4px;
+    font-size: 20px;
+    color: #777777;
+}
+
+.ingredients .top {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0;
+}
+
+.ingredients .top h2 {
+    font-size: 24px;
+    color: #111111;
+    margin-right: 8px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.ingredients .top a {
+    text-decoration: none;
+    font-size: 12px;
+    color: #999999;
+    cursor: pointer;
+}
+
+.ingredients .ingr ul{
+    margin-top: 20px;
+    font-size: 18px;
+    color: #444444;
+    line-height: 28px;
+}
+
+.makemode {
+    margin-top: 40px;
+}
+
+.makemode .top {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0;
+}
+
+.makemode .top h2 {
+    font-size: 24px;
+    color: #111111;
+    margin-right: 8px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.makemode .top a {
+    text-decoration: none;
+    font-size: 12px;
+    color: #999999;
+    cursor: pointer;
+}
+
+.makemode p {
+    font-size: 18px;
+    color: #444444;
+    line-height: 28px;
+}
+
+.makemodeInfo {
+    margin-top: 40px;
+}
+
+.makemodeInfo .top {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0;
+}
+
+.makemodeInfo .top h2 {
+    font-size: 24px;
+    color: #111111;
+    margin-right: 8px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.makemodeInfo .top a {
+    text-decoration: none;
+    font-size: 12px;
+    color: #999999;
+    cursor: pointer;
+}
+
+.makemodeInfo p {
+    font-size: 18px;
+    color: #444444;
+    line-height: 28px;
+}
+
+p.hide  {
+    display: none;
+    overflow: hidden;
+    opacity: 0;
+}
+
+.ingr.hide {
+    display: none;
+    overflow: hidden;
+    opacity: 0;
+}   

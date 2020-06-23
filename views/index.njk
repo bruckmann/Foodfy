@@ -1,26 +1,7 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="/styles/main.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Foodfy</title>
-</head>
-<body>
+{% extends "templates/layout.njk" %}
 
-    <div class="margin">
-        <header>
-            <div class="header-logo">
-                <a href="index.html">
-                    <img src="assets/logo.png" alt="Foodfy">
-                </a>
-            </div>
-            <div class="nav">
-                <a href="about.html">Sobre</a>
-                <a href="recips.html">Receitas</a>
-            </div>
-        </header>
+
+{% block content %}
 
         <div class="jumbtrom">
             <div class="text">
@@ -104,13 +85,7 @@
                 </div>
             </div>
         </div>
-    </div>
-
-    <footer>
-        <div class="direitos">
-            <p>Todos os direitos reservados, receitas Foodfy</p>
-        </div>
-    </footer>
+{% endblock content %}
     
     
 </body>

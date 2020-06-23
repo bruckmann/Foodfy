@@ -1,0 +1,36 @@
+{% extends "templates/layout.njk" %}
+
+
+{% block styles %}
+    <link rel="stylesheet" href="styles/recips.css">
+{% endblock styles %}
+    
+{% block title %}
+    <title>Foodfy</title>
+{% endblock title %}
+
+{% block content %}
+
+        <div class="content">
+            <div class="cards">
+            {% for recipe in recips %}
+                <div class="card" id="{{recipe.id}}">
+                    <div class="card-img">
+                        <img src="{{recipe.image}}" alt="{{recipe.title}}">
+                    </div>
+                    <div class="name-recipe">
+                        <p>{{recipe.title}}</p>
+                    </div>
+                    <div class="name">
+                        <p>por {{recipe.author}}</p>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+{% endblock content %}
+
+{% block scripts %}
+    <script src="scripts/redirect.js"></script>
+{% endblock scripts %}
+</body>
+</html>
